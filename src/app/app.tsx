@@ -88,7 +88,7 @@ export const App = () => {
   return (
     <>
       <div className="synth">
-        <div id="kb88" className="kb kb--61">
+        <div id="kb61" className="kb kb--61">
           {keys.map((key) => (
             <Key metadata={key} />
           ))}

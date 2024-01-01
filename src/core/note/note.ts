@@ -5,7 +5,7 @@ export class Note {
 
   get #source() {
     const note = this.note.replace(/#/, '-')
-    return `/notes/${note + this.octave}.ogg`
+    return `./notes/${note + this.octave}.ogg`
   }
 
   constructor(readonly note: NoteLiteral, readonly octave: Octave) {
